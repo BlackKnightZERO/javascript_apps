@@ -1,0 +1,4 @@
+AuthType basic
+AuthName "restricted area"
+AuthUserFile /home2/faysal/public_html/web-programming/assignment-1/.htpasswd
+require valid-user

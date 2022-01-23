@@ -1,0 +1,87 @@
+/*
+Arif Faysal
+991652842
+*/
+
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: rgb(200,255,161);
+	background: linear-gradient(100deg, rgba(200,255,161,1) 30%, rgba(157,255,236,1) 99%);
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 600;
+}
+
+.container{
+	margin: 3% 15%;
+}
+
+.header-section{
+	padding: 2% 4%;
+	text-align: center;
+}
+
+.header-section h2 {
+	font-size: 2rem;
+	margin: 1% 0;
+	color: #2925ff;
+}
+
+.header-section p {
+	font-size: 1.2rem;
+	color: #3137e8;
+}
+
+.game-section{
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.game-child {
+	padding: 10%;
+	background: rgba(255,255,255, 0.7);
+	border-radius: 5%;
+}
+
+.game-child h2 {
+	text-align: center;
+}
+
+.game-child h4 {
+	text-align: center;
+}
+
+.game-player {
+	color: #2348fe;
+}
+
+.game-computer {
+	color: #f73636;
+}
+
+.result-section{
+	/*border: 1px solid red;*/
+	padding: 2%;
+	text-align: center;
+	background: rgb(196,214,255);
+	background: linear-gradient(100deg, rgba(196,214,255,1) 30%, rgba(255,176,216,1) 99%);
+}
+
+.btn-start{
+	padding: 2% 3%;
+	border-radius: 25px;
+	font-size: 1.07em;
+	font-weight: 600;
+	background-color: rgb(35, 173, 62, 1);
+	border:none;
+	color:#fafafa;
+	cursor:pointer;
+	box-shadow: 0px 3px 3px grey;
+}
+
