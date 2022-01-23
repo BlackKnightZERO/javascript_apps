@@ -17,8 +17,8 @@ let whoIsWinning 		= document.querySelector('#bottom-result-2')
 function reset() {
 	playerScore 				= 0;
 	computerScore 				= 0;
-	playerChoice.innerHTML 		= 'x';
-	computerChoice.innerHTML 	= 'x';
+	playerChoice.innerHTML 		= 'X';
+	computerChoice.innerHTML 	= 'X';
 	playerMainPoint.innerHTML	= 0;
 	computerMainPoint.innerHTML = 0;
 	pointDifferences.innerHTML 	= 'Who will Win ?';
@@ -90,17 +90,14 @@ function game(userInput) {
 
 	updateMessage()
 
-	// console.log(playerScore)
-	// console.log(computerScore)
-
 }
 
 function play() {
 
-	let input = prompt('Enter Your Choice')
+	let input = prompt('Enter Your Choice:\n1: Rock\n2: Paper\n3: Scissors')
 
 	while(!isValidInput(input)) {
-		input = prompt('Enter Your Choice')
+		input = prompt('Enter Your Choice:\n1: Rock\n2: Paper\n3: Scissors')
 	}
 
 	game(input);
